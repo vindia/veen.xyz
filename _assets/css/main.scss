@@ -1,0 +1,18 @@
+// Color declarations
+$veen-color-one: #385999;
+$veen-color-two: #E86956;
+$veen-black: #414141;
+$veen-white: #FFFFFF;
+$veen-light-grey: #F4F4F4;
+
+// Fonts
+@import "fonts/inter-ui";
+@import "fonts/font-awesome";
+
+// Components
+@import "base";
+@import "header";
+@import "footer";
+@import "content";
+@import "highlight";
+@import "logo_orgy";

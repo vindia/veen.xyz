@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <title>{{ site.title }} > {{ page.title }}</title>
+  {% css main %}
+  <link href="https://fonts.googleapis.com/css?family=Rambla|Secular+One|Palanquin+Dark" rel="stylesheet">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+  <body>
+    <header>
+      <img class="logo" src="img/veenxyz-logo.png" alt="veenxyz">
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <section class="footer-content">
+        <address>
+          <strong>veen.xyz</strong><br>
+          Elandsstraat 152-B<br>
+          1016 SJ Amsterdam<br>
+        </address>
+
+        <ul class="links">
+          <li>KVK: 69152543</li>
+          <li>
+            <a href="mailto:{{site.email}}">{{site.email}}</a>
+          </li>
+          <li>
+            <a href="https://github.com/vindia">
+              <i class="fa fa-github" aria-hidden="true"></i>
+              github.com/vindia
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter/vindia">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              twitter/vindia
+            </a>
+          </li>
+        </ul>
+
+        <p class="copyright">&copy; MMXVII</p>
+      </section>
+    </footer>
+  </body>
+</html>
