@@ -2,9 +2,10 @@ footer {
   background-color: $veen-color-two;
   font-weight: 300;
   padding: 3em 2em;
+  display: flex;
+  justify-content: flex-end;
 
   .footer-content {
-    margin-left: 75%;
     line-height: 1.5;
 
     address {
@@ -29,8 +30,6 @@ footer {
 
 @media (max-width:414px) {
   footer {
-    .footer-content {
-      margin-left: 0;
-    }
+    justify-content: center;
   }
 }
