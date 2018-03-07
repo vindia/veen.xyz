@@ -1,5 +1,6 @@
 footer {
-  background-color: $veen-color-two;
+  background-color: $veen-color-one;
+  color: $veen-white;
   font-weight: 300;
   padding: 3em 2em;
   display: flex;
@@ -19,6 +20,7 @@ footer {
 
       a {
         text-decoration: none;
+        color: $veen-color-two;
       }
     }
 
